@@ -39,11 +39,8 @@ pipeline {
             echo 'Build and tests completed successfully.'
         }
         failure {
-<<<<<<< HEAD
             echo 'Build or tests failed. Check all scripts for issues.'
-=======
-            echo 'Build or tests failed. Check for errors.'
->>>>>>> dd56fd7 (new commit)
         }
     }
+
 }
