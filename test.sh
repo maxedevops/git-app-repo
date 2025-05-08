@@ -12,8 +12,9 @@ echo "=== Running Tests ==="
 # Python:
 # pytest
 
-
 mvn test
+
+mvn verify 
 
 echo "Tests completed successfully."
 

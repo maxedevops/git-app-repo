@@ -4,7 +4,12 @@
 set -e
 
 echo "Building the project..."
-mvn build
+
+mvn clean compile
+
+
+mvn package
+
 # Example: compile Java files
 # mkdir -p build
 # javac -d build src/*.java
