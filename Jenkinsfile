@@ -11,7 +11,7 @@ pipeline {
     }
 
     tools {
-        // Define tools like JDK, Maven, NodeJS etc., if required
+        Maven 3.9.9
     }
 
     stages {
