@@ -23,13 +23,15 @@ pipeline {
 
         stage('Build') {
             steps {
-                sh './build.sh'
+                mvn clean compile
+		mvn package
             }
         }
 
         stage('Test') {
             steps {
-                sh './test.sh'
+                mvn test
+		mvn verify
             }
         }
     }
